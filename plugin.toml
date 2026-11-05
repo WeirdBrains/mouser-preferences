@@ -1,7 +1,7 @@
 # The preferences mode as a plugin (docs/plugins/preferences.md). It replaces
 # the built-in preferences mode when installed.
 name = "preferences"
-version = "0.1.0"
+version = "0.1.1"
 description = "preferences mode: all settings by section, validated by Mouser, written back with comments kept"
 permissions = ["prefs.write"]
 
