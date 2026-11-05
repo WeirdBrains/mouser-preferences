@@ -49,3 +49,18 @@ It reads and writes through Mouser's `prefs.*` calls, so Mouser still does the
 validation and the comment-keeping write. For a secret, Enter makes Mouser
 show its own key popup. The key you type goes from that popup to the keychain,
 and the plugin only hears that it was saved.
+
+## Context menu
+
+Right-click a setting (or `.` while preferences has the keyboard): edit (Enter),
+previous / next value (← / →, for on/off, choices and numbers), reset to default
+(`r`, greyed when nothing is set), copy value (never for a key; those stay in the
+keychain), copy the setting's name, previous / next setting. Off the settings:
+previous / next setting and page up / down.
+
+## Panel size
+
+Mouser 1.4 lets you size the mode panel (`F` fullscreen, `]` / `[` taller /
+shorter while the mode has the keyboard, or drag its bottom edge); this plugin
+lays its panel out to that size (`dock` in `view.resized`). Older Mouser
+versions keep the plugin's own height.

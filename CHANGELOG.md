@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased]
+
+## [0.1.2] - 2026-11-05
+
+### Added
+
+- Context menu (right-click, or `.` in Mouser 1.4) on a setting: edit, previous / next value, reset to default, copy value (never a key), copy the name (docs/preferences.md §Context menu).
+- The panel follows the size chosen in Mouser. Built on mouser-mode-api 0.2.
+
 ## [0.1.1] - 2026-11-05
 
 ### Fixed
